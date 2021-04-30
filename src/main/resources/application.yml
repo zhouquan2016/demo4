@@ -1,0 +1,14 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://redis2:3306/test?useAffectedRows=true&serverTimezone=Asia/Shanghai&allowMultiQueries=true
+    username: es
+    password: es
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+server:
+  port: 5000
